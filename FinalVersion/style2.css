@@ -1,0 +1,40 @@
+
+.Row2{
+    text-align: center;
+}
+.Row3{
+    width: 100%;
+}
+
+.Row31, .Row32{
+    justify-content:space-around;
+    display: flex;
+    margin-top: 15px;
+}
+
+.tag{
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    margin: 7.5px;
+    background-color: rgb(163, 180, 195);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    position: relative;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.tag:hover{
+    background-color: rgb(198, 228, 255);
+    color: rgb(0, 0, 0);
+
+}
+

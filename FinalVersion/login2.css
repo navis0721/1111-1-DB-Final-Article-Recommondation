@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(194, 159, 159);
+    
+}
+.container{
+    /* display: block; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.logitem{
+    background-color: rgb(255, 255, 255);
+    padding: 90px 120px;
+    border-radius: 20px;
+    box-shadow: 4.5px 4.5px #000000;
+}
+
+.logitem h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 65px;
+    margin-bottom: 50px;
+}
+
+/* .test{
+    display: flex;
+} */
+.logitem input{
+    display: block;
+    margin: 20px auto;
+    background: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+   
+}
+
+.logitem input[type="text"], .logitem input[type="password"] {
+    border: 2.5px solid rgb(143, 82, 92);
+    width: 150px;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.logitem input[type="submit"]{
+    border: 1.5px solid rgb(194, 159, 159);
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+}
+
+.logitem input[type="text"]:focus, .logitem input[type="password"]:focus {
+    border: 2.5px solid rgb(194, 159, 159);
+    width: 170px;
+    transition: .5s;
+}
+
+
+.logitem input[type="submit"]:hover{
+    background-color: rgb(194, 159, 159);
+    color: rgb(255, 255, 255);
+}
+
+.account{
+    text-decoration: none;
+}

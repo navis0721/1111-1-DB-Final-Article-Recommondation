@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1.>
+        <title>小說系統</title>
+        <link rel="stylesheet" href="style2.css"/>
+        <link rel="stylesheet" href="header.css"/>
+        <!-- <script type="text/javascript" src="data.js" ></script> -->
+    </head>
+    <body>
+        <section id="Row1" class="Row1">
+            <div id="header" class="header">
+                <h1 id="title" class="title"><a href="Novel.php">Novel Recommend</a></h1>
+                <a href="wordcloud.html" class="btn">依類型分</a>
+                <a href="survey.html" class="btn">問卷填寫</a>
+            </div>
+        </section>
+        <section class="Row2">
+            <img src="cloud.png" class="cloud" width="70%">
+        </section>
+        <section class="Row3">
+            <form action="bookTag.php" method="post">
+            <div class="Row31">
+                <button class="tag" name="HE" value="#">HE</button>
+                <button class="tag" name="甜寵" value="#">甜寵</button>
+                <button class="tag" name="戀愛" value="#">戀愛</button>
+                <button class="tag" name="校園" value="#">校園</button>
+            </div>
+            <div class="Row32">
+                <button class="tag" name="輕鬆" value="#">輕鬆</button>
+                <button class="tag" name="甜文" value="#">甜文</button>
+                <button class="tag" name="日常" value="#">日常</button>
+                <button class="tag" name="輕小說" value="#">輕小說</button>
+            </div>
+            </form>
+        </section>
+    </body>
+    
+</html>

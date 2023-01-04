@@ -1,0 +1,93 @@
+.Row2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.content{
+    font-size: 20px;
+    display: block;
+    margin: 7.5px;
+}
+.content21{
+    font-size: 20px;
+    margin: 3.5px;
+    margin-right: 80px;
+}
+.content22{
+    font-size: 20px;
+    margin: 40.5px;
+}
+.input21{
+    width: 10%;
+    padding:5px 15px; border:2px black solid;
+    -webkit-border-radius: 5px;
+}
+.input22{
+    width: 50%;
+    padding:5px 15px; border:2px black solid;
+    -webkit-border-radius: 5px;
+}
+
+.emo_range{
+    width: 50%;
+    height: 10px;
+    -webkit-appearance: none;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 100rem;
+	border-color: rgba(0, 0, 0, 0.1);
+	padding: 10px 5px;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+}
+
+.emo_range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+	background: rgb(7, 58, 103);
+	border-radius: 50rem;
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.emo, .rangeText{
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.Row21 input{
+    height: 20px;
+}
+.input{
+    width: 50%;
+    padding:5px 15px; border:2px black solid;
+    -webkit-border-radius: 5px;
+}
+.Row24 input{
+    /* width: 50%; */
+    height: 80px;
+}
+
+.btn{
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    margin: 7.5px;
+    background-color: rgb(163, 180, 195);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    position: relative;
+    /* outline: none; */
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
