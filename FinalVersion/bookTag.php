@@ -20,27 +20,27 @@
         // echo "success3";
     }
     else if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['校園'])){
-        $type = 3;
+        $type = 4;
         $_SESSION['type'] = 4;
         // echo "success3";
     }
     else if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['輕鬆'])){
-        $type = 3;
+        $type = 5;
         $_SESSION['type'] = 5;
         // echo "success3";
     }
     else if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['甜文'])){
-        $type = 3;
+        $type = 6;
         $_SESSION['type'] = 6;
         // echo "success3";
     }
     else if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['日常'])){
-        $type = 3;
+        $type = 7;
         $_SESSION['type'] = 7;
         // echo "success3";
     }
     else if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['輕小說'])){
-        $type = 3;
+        $type = 8;
         $_SESSION['type'] = 8;
         // echo "success3";
     }
