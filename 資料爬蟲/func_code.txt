@@ -1,0 +1,32 @@
+Sub NewLayout()
+    For i = 2 To Cells.Find("*", [A1], , , xlByRows, xlPrevious).Row
+        For j = 0 To 4
+            If Cells(i, 7 + j) <> vbNullString Then
+                intCount = intCount + 1
+                Cells(i, 1).Copy Destination:=Cells(intCount + 1, 12)
+                Cells(i, 2).Copy Destination:=Cells(intCount + 1, 13)
+                Cells(i, 3).Copy Destination:=Cells(intCount + 1, 14)
+                Cells(i, 4).Copy Destination:=Cells(intCount + 1, 15)
+                Cells(i, 5).Copy Destination:=Cells(intCount + 1, 16)
+                Cells(i, 6).Copy Destination:=Cells(intCount + 1, 17)
+                Cells(i, 7 + j).Copy Destination:=Cells(intCount + 1, 18)
+            End If
+        Next j
+    Next i
+End Sub
+
+
+Sub NewLayout()
+    For i = 2 To Cells.Find("*", [A1], , , xlByRows, xlPrevious).Row
+        For j = 0 To 4
+            If Cells(i, 5 + j) <> vbNullString Then
+                intCount = intCount + 1
+                Cells(i, 1).Copy Destination:=Cells(intCount + 1, 10)
+                Cells(i, 2).Copy Destination:=Cells(intCount + 1, 11)
+                Cells(i, 3).Copy Destination:=Cells(intCount + 1, 12)
+                Cells(i, 4).Copy Destination:=Cells(intCount + 1, 13)
+                Cells(i, 5 + j).Copy Destination:=Cells(intCount + 1, 14)
+            End If
+        Next j
+    Next i
+End Sub
